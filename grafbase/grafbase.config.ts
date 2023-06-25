@@ -20,3 +20,7 @@ const Project = g.model('Project', {
   createdBy : g.relation(() => User)
 
 })
+
+export default config ( {
+  schema : g
+})
